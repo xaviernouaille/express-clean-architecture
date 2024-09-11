@@ -1,0 +1,22 @@
+{
+  "name": "express-clear-architecture",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "@types/express": "^4.17.21",
+    "express": "^4.20.0",
+    "pino": "^9.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.19.1"
+  }
+}
