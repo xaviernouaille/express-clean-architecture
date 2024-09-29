@@ -32,6 +32,8 @@ express-clear-architecture/
 │   │   └── productRepository.ts
 │   ├── routes/                  # API routes
 │   │   └── productRoutes.ts
+│   ├── tests/                  # Tests
+│   │   └── productInteractor.test.ts
 │   └── index.ts                 # Application entry point
 ├── .env                         # Environment variables
 ├── .gitignore                   # Files to ignore in version control
@@ -88,7 +90,7 @@ express-clear-architecture/
 
 ## Running Tests
 
-To run tests, you would ideally use a testing framework like **Jest** or **Mocha**. Since no tests were found in the structure, you can set them up under a `tests/` directory and run them using a script like:
+To run tests, you would ideally use a testing framework like **Jest**. Since no tests were found in the structure, you can set them up under a `tests/` directory and run them using a script like:
 
 ```bash
 npm run test
